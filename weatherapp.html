@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💫 Weather App 🌏</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/styling.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  </head>
+
+  <body>
+    <div id="box">
+      <div class="container">
+        <div class="Weather App">
+          <form id="weather-search">
+            <div class="row">
+              <div class="col-6">
+                  <input
+                  type="search"
+                  placeholder="Enter a City..."
+                  class="form-control"
+                  autocomplete="off"
+                  autofocus="on"
+                  id="search-text-input"
+              </div>
+            </div>
+              
+              <div class="col-2">
+                  <input
+                  type="submit"
+                  value="Search"
+                  class="form-control btn btn-primary"
+              </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+          </form>
+          <br />
+          <div class="Weather-Info">
+            <div class="row">
+              <div class="col-5">
+                  <h1 id="area">Sydney</h1>
+                </div>
+              <div class="col-3">
+                <img src="images/sun.png" alt="sunshine" width="130" />
+              </div>
+              <div class="col-4">
+                <h2 id="main-temp">25°C</h2>
+              
+          </div>
+        </div>
+      </div>
+      <div class="bottom-card row">
+        <div class="col-1"></div>
+        <span class="card forecast col-2">
+          <p class="weekday">Thu</p>
+          <img src="images/sun.png" width="60" />
+          <div class="forecast-temp">
+            <span class="high">31°C</span>
+          </br>
+            <span class="low">12°C</span>
+          </div>
+        </span>
+        <span class="card forecast col-2">
+          <p class="weekday">Fri</p>
+          <img src="images/cloud.png" width="60" />
+          <div class="forecast-temp">
+            <span class="high">23°C</span>
+          </br>
+            <span class="low">9°C</span>
+          </div>
+        </span>
+        <span class="card forecast col-2">
+          <p class="weekday">Sat</p>
+          <img src="images/sun.png" width="60" />
+          <div class="forecast-temp">
+            <span class="high">32°C</span>
+          </br>
+            <span class="low">15°C</span>
+          </div>
+        </span>
+        <span class="card forecast col-2">
+          <p class="weekday">Sun</p>
+          <img src="images/thunderstorm.png" width="60" />
+          <div class="forecast-temp">
+            <span class="high">29°C</span>
+          </br>
+            <span class="low">9°C</span>
+          </div>
+        </span>
+        <span class="card forecast col-2">
+          <p class="weekday">Mon</p>
+          <img src="images/rain.png" width="60" />
+          <div class="forecast-temp">
+            <span class="high">18°C</span>
+          </br>
+            <span class="low">9°C</span>
+          </div>
+        </span>
+        <div class="col-1"></div>
+        <div class= "col-12">
+          <h3 id="current-date"</h3>
+            <h4 id="current-time"</4>
+        </div>
+      
+    <div class=" col-12">
+      <button class="btn btn-outline-info"
+       id="current-location-button">
+          Current Location
+      </button>
+  </div>
+</div>
+</div>
+    <script src="src/index.js">
+
+    </script>
+  </body>
+</html>

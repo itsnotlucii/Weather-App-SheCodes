@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 200;
+  color: #5a6275;
+  padding-top: 16px;
+  margin: 5px 0 0;
+}
+h2 {
+  font-size: 65px;
+  font-weight: 200;
+  color: #5a6275;
+  padding-top: 16px;
+  margin: 5px 0 0;
+}
+h3 {
+  font-size: 20px;
+  color: #5a6275;
+  text-align: auto 0;
+  padding-top: 45px;
+  margin: 5px 0 0;
+}
+
+h4 {
+  font-size: 20px;
+  color: #5a6275;
+  text-align: auto 0;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  margin: 5px 0 0;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.main-temp {
+  color: rgb(0, 130, 182);
+  font-size: 75px;
+  margin: 5px 0 0;
+}
+
+#box {
+  border: 2px solid #5a6275;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 275px 10px;
+  box-shadow: 5px 5px 5px rgb(110 108 108 / 30%);
+  width: 800px;
+}
+
+.card {
+  border: none;
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  margin: 0;
+}
+
+.weekday {
+  font-weight: 600;
+  font-size: large;
+  color: #67696d;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.high {
+  text-align: center;
+  color: #007cad;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.low {
+  text-align: center;
+  color: #008dc5;
+  font-size: 20px;
+}
